@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyectogenerico';
+
+  nombre:string ='';
+  paises:any = [
+    {activo: true, nombre: 'Colombia'},
+    {activo: true,nombre: 'Brasil'},
+    {activo: false,nombre: 'Argentina'},
+    {activo: true,nombre: 'Polonia'},
+    {activo: false,nombre: 'Alemania'},
+    {activo: true,nombre: 'Francia'}
+  
+  ]
+  lat:number = 51.678418;
+  lng:number = 7.809007;
 }
